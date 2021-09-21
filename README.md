@@ -1,5 +1,12 @@
 # screenshot-server
 a flask project.
+beore running it, prepare cookie json foes for jd and taobao
+python mk-jd-cookies.py
+python mk-tb-cookies.py
+
+cookies for pingduoduo and other more sites can be made by writing similar python programs.
+they are loaded in browser.py
+
 to run it:
 python app.py
 
